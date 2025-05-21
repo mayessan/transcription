@@ -4,3 +4,4 @@ torch==2.0.1
 torchaudio==2.0.2
 numpy
 soundfile
+streamlit
