@@ -1,0 +1,6 @@
+gradio==3.44.0
+openai-whisper
+torch==2.0.1
+torchaudio==2.0.2
+numpy
+soundfile
