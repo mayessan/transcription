@@ -1,15 +1,16 @@
-Transcription & Détection Commande Vocale
+**Transcription & Détection Commande Vocale
 Cette application utilise Whisper pour la transcription vocale et un modèle CNN simulé pour la détection de commandes vocales.
 
-Description
+*Description
 Le modèle Whisper (version base) est utilisé pour transcrire du texte à partir d'audio.
 La détection des commandes vocales repose sur un modèle CNN fictif (DummyCNN) qui simule la reconnaissance des commandes basiques :
 yes, no, up, down, left, right, on, off, stop, go.
 
-Fonctionnalités
+*Fonctionnalités
 Transcription de fichiers audio uploadés.
 Détection simple de commandes vocales sur des fichiers audio.
-Installation
+
+*Installation
 Crée un environnement Python et installe les dépendances suivantes :
 
 pip install gradio torch torchaudio numpy whisper
